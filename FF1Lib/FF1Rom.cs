@@ -163,6 +163,11 @@ namespace FF1Lib
 				EnableTitansTrove(maps);
 			}
 
+			if (flags.LefeinShops)
+			{
+				EnableLefeinShops(maps);
+			}
+
 			// This has to be done before we shuffle spell levels.
 			if (flags.SpellBugs)
 			{
